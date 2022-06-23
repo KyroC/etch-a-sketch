@@ -18,14 +18,12 @@ function trail(){
     });
 }
 function start() {
+    container.style.cssText = `grid-template-columns: repeat(8, 1fr)`
+    container.innerHTML = '';
     for (i = 0; i < 64; i++){
-
         container.appendChild(div.cloneNode())
     }
-    
-
     trail()
-   
 }
 
 start()
