@@ -1,0 +1,17 @@
+#container {
+    display:grid;
+    gap: 1px;
+    grid-template-columns: repeat(8, 1fr);
+    height: 540px;
+    width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.grid-sq {
+    border-style:solid;
+    padding: 10px;   
+}
+.grid-sq-black {
+    background-color:black;
+
+}
